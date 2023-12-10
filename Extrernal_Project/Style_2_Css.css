@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Young+Serif&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+*/
+
+
+
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+section p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 ,h1, h3{
+    color: white;
+    font-family: 'Young Serif', sans-serif;
+    
+}
+
+
+
+
+
+section img {
+     max-width: 100%;
+     border: 5px solid white ;
+     margin: 10px;
+    
+  
+  }
+
+
+
+
+section h2::before{
+    display:block;
+    content: "";
+    background-image: url(gaming-batman-arkham-knight-9.jpg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin:auto;
+}
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+main section {
+ flex: 1 1 33%;
+ padding: 20px;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+    display: flex;
+    padding:0;
+  justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a{
+text-decoration: none;
+font-family: 'Young Serif', sans-serif;;
+font-size: 22px;
+color:rgb(255, 255, 255);
+border: 2px solid transparent;
+padding: 5px;
+
+}
+nav ul li a:hover{
+   border-left: 2px solid white;
+   transition: 0.5s;
+}
+
+
+/* media queries go at the end of all other styles */
+
+@media only screen and (max-width: 700px) {
+    body {
+         background: rgb(0, 0, 0);
+     }
+ }
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (max-width: 700px) {
+     #img {
+         display: none;
+     }
+ }
+ 
+ 
+ 
